@@ -1,0 +1,141 @@
+/* CSS Document */
+/****************************************************************************************************
+* Filename: Main.css
+* Purpose: All the main CSS Rules required to design web pages.
+* Author: Dhananjay Abhang a[dot]dhananjay[at]agiletechnosys[dot]com
+****************************************************************************************************/
+/****************************************************************************************************/
+/*** BODY (GLOBAL SETTING)***/
+body {font:normal 12px Arial, Helvetica, sans-serif; color:#504f4e}
+
+
+/*** MAIN WRAPPERS ***/
+#wrapper {margin:0 auto; width:1000px; position:relative}
+
+/*** HEADER ***/
+#header {width:100%; margin-bottom:10px;}
+
+/*** WEBSITE LOGO ***/
+#logo {width:242px; height:66px; padding-top:13px}
+#logo a , #logo a:hover {display:block; width:242px; height:66px; text-decoration:none; background:url(../images/logo.png) 0 0 no-repeat}
+.header-rgt{ overflow:hidden; padding-top:33px}
+.sec-1{ width:130px; float:left; margin-right:15px}
+.sec-1 label{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000}
+
+.sec-2{ width:80px; float:left; margin-right:15px}
+.sec-2 label{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000}
+
+.sec-3{ width:115px; float:left;}
+.sec-3 label{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000}
+
+.navigation{ width:100%; overflow:hidden; margin-top:15px; margin-bottom:10px}
+.nav-lft-bg{ background:url(../images/nav-lft-bg.png) no-repeat 0 0; width:15px; height:48px; float:left}
+.nav-rgt-bg{ background:url(../images/nav-rgt.png) no-repeat 0 0; width:18px; height:48px; float:left}
+.nav-mid-bg{ background:url(../images/nav-mid-bg.png) repeat-x 0 0; float:left; height:48px; width:967px}
+
+/** MAIN NAV **/
+ul#globalNav {margin:0; padding:0; list-style:none}
+ul#globalNav li {display:inline; float:left}
+ul#globalNav li a {float:left; display:block; font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; color:#FFF; line-height:48px; padding-left:23px; padding-right:23px}
+ul#globalNav li a:hover { color:#000}
+ul#globalNav li a.active span, ul#globalNav li a:hover span {cursor:pointer}
+.first{ margin-left:110px}
+
+/*** SUB NAVS ***/
+
+/*** MAIN CONTENTS (section wise) ***/
+#maincont {width:100%; overflow:hidden;}
+.main-lft{ width:695px; float:left; overflow:hidden}
+.main-rgt{ width:295px; float:right; overflow:hidden}
+.content-1{ background:url(../images/content-bg.png) no-repeat top right; float:left; height:271px; width:695px; }
+.content-1-in{ background:url(../images/in-bg.png) no-repeat top right; float:left; height:146px; width:695px; }
+.ban-logo{ margin-top:32px; width:400px; float:right} .ban-logo01{ margin-top:32px; width:425px; float:right; margin-right:50px}
+.ban-logo p{ font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; color:#323232; margin-top:20px}
+.btn-lft{ background:url(../images/btn-sprite.png) no-repeat 0 0; float:left; padding-left:13px}
+.btn-rgt{ background:url(../images/btn-sprite.png) no-repeat 100% -60px; float:left; padding-right:13px; height:50px}
+.btn-rgt a{ font-family:Arial, Helvetica, sans-serif; font-size:bold; font-size:18px; color:#000; line-height:50px}
+.btn{ margin-top:23px}
+.btn-lft:hover{ background:url(../images/btn-hover.png) no-repeat 0 0; padding-left:13px; float:left}
+.btn-rgt:hover{ background:url(../images/btn-hover.png) no-repeat 100% -65px; padding-right:13px; float:left; height:50px}
+.img{ position:absolute; top:99px; left:0px;}
+
+.text{ width:100%; overflow:hidden}
+.text h1{ font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; color:#cc0001; line-height:45px}
+.text p{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#323232; line-height:normal}
+
+.content-2{ width:100%; overflow:hidden; background:url(../images/content-2-bg.png) no-repeat 0 0; height:166px; margin-top:20px; padding-top:18px; padding-left:22px; width:652px}
+.listing{ margin:0px; padding:0px; list-style-type:none; float:left}
+.listing li{ display:block}
+.listing li a{ font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#000; line-height:normal}
+.text-1{ width:100%; overflow:hidden; margin-top:10px}
+.text-1 h2{ font-family:Arial, Helvetica, sans-serif; font-size:21px; color:#870000; line-height:50px}
+.text-1 p{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333; line-height:normal}
+.rgt-content1{ width:100%; overflow:hidden}
+.top-bg{ background:url(../images/top-bg.png) no-repeat 0 0; width:295px; height:11px}
+.btm-bg{ background:url(../images/btm-bg.png) no-repeat 0 0; width:295px; height:13px}
+.mid-bg{ background:#000; padding-left:17px; padding-right:20px; min-height:350px; overflow:hidden}
+.mid-bg h3{  font-family:Arial, Helvetica, sans-serif; font-size:19px; font-weight:bold; color:#fff; line-height:normal}
+.mid-bg p{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#fff; line-height:normal}
+.fom{ margin-top:20px}
+.form{ margin:0px; padding:0px; list-style-type:none}
+.form li{ width:258px; overflow:hidden; margin-bottom:3px}
+.form label{ width:73px; float:left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFF; line-height:29px}
+.txtfield{ width:180px; background:#2d2d2d; border:1px solid #515151; height:27px; color:#fff} 
+.f-btn{ background:#870000; border:1px solid #ff0000; width:70px; margin-top:5px; height:29px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFF; cursor:pointer; margin-left:3px}
+
+
+.rgt-content2{  width:100%; overflow:hidden; margin-top:10px}
+.gray-top-bg{ background:url(../images/gray-top-bg.png) no-repeat 0 0; width:294px; height:10px}
+.gray-btm-bg{ background:url(../images/gray-btm-bg.png) no-repeat 0 0; width:294px; height:13px}
+.gray-mid-bg{ background:#e3e3e3; min-height:160px; padding-left:13px; padding-right:13px; overflow:hidden; margin-right:1px}
+.gray-mid-bg h4{ font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#000; font-weight:bold; border-bottom:1px solid #c7c7c7; padding-bottom:14px; line-height:normal}
+.link{ text-align:center}
+.click{ text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000; line-height:normal}
+.click:hover{ text-decoration:underline}
+
+.form2{ margin:0px; padding:0px; list-style-type:none}
+.form2 li{ width:258px; overflow:hidden; margin-bottom:3px}
+.form2 label{ width:65px; float:left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000; line-height:20px}
+.txtfield1{ width:188px; background:#fff; border:1px solid #cacaca; height:16px; padding:3px} 
+.listing01{ overflow:hidden; margin-top:10px}
+.sp-lft{ background:url(../images/sprite01.png) no-repeat 0 0; padding-left:12px; float:left}
+.sp-rgt{ background:url(../images/sprite01.png) no-repeat 100% -87px; padding-right:12px; float:left; height:72px}
+.bg{ background:url(../images/transperant-bg.png) no-repeat 0 3px; width:217px; height:66px; float:left}
+.bg h1{ font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#FFF; font-weight:bold; padding-top:10px; padding-left:10px; width:190px; float:left}
+.bg h5{ font-family:Arial, Helvetica, sans-serif; font-size:17px; color:#FFF; font-weight:bold;  padding-left:10px; width:190px; float:left}
+.bg01{ background:url(../images/bg01.png) no-repeat 0 0; width:54px; height:54px; float:right; margin-top:8px}
+.bg01 img{ padding:2px; padding-top:8px}
+.listing02{}
+
+.gray-sprite{ width:695px; overflow:hidden; margin-top:12px; margin-bottom:12px}
+.gray-sprite-top{ background:url(../images/gray-sprite.png) no-repeat 0 0; padding-left:11px}
+.gray-sprite-top div{ background:url(../images/gray-sprite.png) no-repeat 100% -62px; padding-right:11px; height:20px}
+.gray-sprite-bg{ background:#d8d8d8}
+.gray-sprite-btm{ background:url(../images/gray-sprite.png) no-repeat 0 -28px; padding-left:11px}
+.gray-sprite-btm div{ background:url(../images/gray-sprite.png) no-repeat 100% -90px; padding-right:11px; height:20px}
+.gray-sprite-bg h2{ font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:18px; color:#cc0001; margin-left:12px}
+.abt{ width:100%; overflow:hidden}
+.abt p{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#323232; line-height:normal; padding-bottom:15px}
+.abt p strong{ font-family:Arial; font-size:13px; color:#cc0001; line-height:bold; border-bottom:solid 1px #ccc; padding-bottom:5px}
+.abt p span{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#323232; line-height:normal; padding:7px 0px; float:left; width:100%; font-weight:bold}
+/*** LISTINGS ***/
+
+/*** FOOTER ***/
+#footer {width:100%; overflow:hidden; margin-top:25px}
+#footerwrap {width:1000px; margin:0 auto}
+.f-lft-bg{ background:url(../images/f-lft-bg.png) no-repeat 0 0; width:10px; height:48px; float:left}
+.f-rgt-bg{ background:url(../images/f-rgt-bg.png) no-repeat 0 0; width:12px; height:48px; float:left}
+.f-mid-bg{ background:url(../images/f-mid-bg.png) repeat-x 0 0; width:978px; height:48px; float:left}
+.f-links{ margin:0px; padding:0px; list-style-type:none}
+.f-links li{ display:inline}
+.f-links a{  font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; font-weight:bold; line-height:48px; padding-left:25px; padding-right:25px}
+.f-links a:hover{ text-decoration:underline}
+.copyright{ text-align:center; margin-top:15px; margin-bottom:25px}
+.copyright p{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#000}
+/*** COMMON MODULES ***/
+
+
+
+
+
+
